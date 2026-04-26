@@ -1,9 +1,8 @@
 package Arrays;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ExibirArray {
+public class ArraySort {
     public static void main(String[] args){
 
         Scanner scr = new Scanner(System.in);
