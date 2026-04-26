@@ -2,7 +2,7 @@ package Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArraySort {
+public class SortAndBinarysearch {
     public static void main(String[] args){
 
         Scanner scr = new Scanner(System.in);

@@ -1,7 +1,7 @@
 package Arrays;
 import java.util.Arrays;
 
-public class ArrayFillAndCopy {
+public class FillAndCopy {
     public static void main(String[] args){
         double[] notas = new double[10];
 
