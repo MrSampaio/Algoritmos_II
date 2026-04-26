@@ -12,7 +12,6 @@ public class IteratorAndSubList {
         List<Integer> numeros = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
         System.out.println("1. Lista original: " + numeros);
 
-
         Iterator<Integer> it = numeros.iterator();
         while (it.hasNext()) {
             Integer atual = it.next();
@@ -22,7 +21,6 @@ public class IteratorAndSubList {
         }
         System.out.println("2. Lista após remover pares: " + numeros);
 
-
         System.out.print("3. Números na ordem reversa: ");
 
         ListIterator<Integer> listIt = numeros.listIterator(numeros.size());
@@ -31,10 +29,8 @@ public class IteratorAndSubList {
         }
         System.out.println();
 
-
         List<Integer> sublista = numeros.subList(0, 2);
         System.out.println("4. Sublista gerada subList(0, 2): " + sublista);
-
 
         sublista.set(0, 99);
         System.out.println("5. Sublista após definir o primeiro elemento como 99: " + sublista);
