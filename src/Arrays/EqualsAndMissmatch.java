@@ -22,6 +22,5 @@ public class EqualsAndMissmatch {
             int indiceDiferente = Arrays.mismatch(vetorA, vetorC);
             System.out.println("O vetores A e C comecam a ficar diferentes no indice " + indiceDiferente);
         }
-
     }
 }
