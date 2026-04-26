@@ -15,6 +15,8 @@ public class RemoveAndClone {
         novos.add(40);
         novos.add(50);
 
+        ativos.addAll(novos);
+
         ArrayList<Integer> ativosArrayList = (ArrayList<Integer>) ((ArrayList<Integer>) ativos).clone();
         System.out.println("Lista clonada: " + ativosArrayList);
 
