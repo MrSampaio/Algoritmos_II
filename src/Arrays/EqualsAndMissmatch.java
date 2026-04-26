@@ -23,6 +23,5 @@ public class EqualsAndMissmatch {
             System.out.println("O vetores A e C comecam a ficar diferentes no indice " + indiceDiferente);
         }
 
-
     }
 }
